@@ -1,6 +1,10 @@
-# Arduino-ultrasonic-sensor-display
-Arduino Uno R4 WiFi. Radar sweep mode in Processing that activates when I press a button. Second Mode: parking sensor with a wave animation on the small OLED display. Both modes are integrated into a single codebase. I also have a video demonstrating how the servo motor and ultrasonic sensor work and how the modes switch with a button press.
+Arduino Radar System with OLED Display & Dual Modes 
 
+Arduino Uno R4 WiFi project featuring a sonar system with two operating modes:
+1. Radar sweep mode with real-time visualization in Processing  
+2. Parking sensor mode with wave animation on an OLED display  
+
+Both modes are controlled using a button and integrated into a single codebase.
 
 A simple radar system built using Arduino, an ultrasonic sensor, and a servo motor.
 The system scans the environment and detects objects in real time, displaying the results both on a small OLED screen and a custom Processing interface.
@@ -22,31 +26,38 @@ Breadboard + wires
 💻 Software
 Arduino IDE (C++)
 Processing (for radar visualization)
+
 🎥 Demo Video
 
-https://youtube.com/shorts/XGlyk4Z_kOk
+[Watch the demo](https://youtube.com/shorts/XGlyk4Z_kOk)
 
+## 📷 Project Preview
 
-📷 Images
-
-
+<p align="center">
+  <img src="20260401_223541 (2).jpg" width="300"/>
+  <img src="20260401_223607 (2).jpg" width="300"/>
+</p>
 
 ⚙️ How It Works
 
-The ultrasonic sensor measures the distance to nearby objects while the servo motor rotates, scanning the area.
+Mode 1: The ultrasonic sensor measures the distance to nearby objects while the servo motor rotates, scanning the area.
 The Arduino sends the data to a Processing application, which displays a radar-like visualization in real time.
+Mode 2: The ultrasonic sensor stays still while the OLED keeps displaying the distance via a wave animation and a live Dist. tracker.
 
 ▶️ How to Run
+
 Upload the Arduino code to your board
 Connect all components as shown
 Run the Processing sketch
 Open the correct COM port
 Watch the radar in action
-📌 Future Improvements
-Better accuracy (filtering noise)
-3D printed case
-Wireless version (Bluetooth/WiFi)
-Faster scanning
-👨‍💻 Author
 
-Your Name
+
+📌Improvements
+
+Feel free to suggest improvements or optimizations!
+
+
+
+👨‍💻 Author
+Istodor Stefan-Valentin 
