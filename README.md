@@ -33,10 +33,12 @@ Processing (for radar visualization)
 
 #📷 Project Preview
 
-<p align="center">
-  <img src="20260401_223541 (2).jpg" width="300" height="400"/>
-  <img src="20260401_223607 (2).jpg" width="300" height="400"/>
-</p>
+<table align="center">
+  <tr>
+    <td><img src="20260401_223541 (2).jpg" width="300"/></td>
+    <td><img src="20260401_223607 (2).jpg" width="300"/></td>
+  </tr>
+</table>
 
 ⚙️ How It Works
 
